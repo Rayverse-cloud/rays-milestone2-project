@@ -1,0 +1,12 @@
+STAGING AND COMMITTING 
+
+Staging:
+git add moves files into a waiting area called the staging area. 
+It is like putting items in a box before sealing it. You choose 
+exactly which changes go into the next commit.
+
+Committing:
+git commit permanently saves the staged changes into the repository 
+history with a message describing what changed. It is like sealing 
+and labelling the box. Once committed, that snapshot is saved forever 
+and can always be restored.

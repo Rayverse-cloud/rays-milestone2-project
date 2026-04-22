@@ -1,0 +1,4 @@
+FROM — specifies the base image to build from. Here we used nginx:alpine which is a lightweight web server. Think of it as the operating system for your container.
+COPY — copies files from your local machine into the container. Here we copied index.html into the folder nginx uses to serve web pages.
+EXPOSE — tells Docker which port the container listens on. Here port 80 is the standard HTTP port.
+CMD — the command that runs when the container starts. Here it starts the nginx web server in the foreground.
